@@ -1,5 +1,76 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body{
-    background-image: url("signup-page-bg.png");
+    background-image: url("background-signup.png");
     background-color: aquamarine;
+    font-family: Nunito;
 } 
+
+.form-area{
+    margin-left: 770px;
+    margin-top: 150px;
+    
+}
+form{
+    border-color: rgb(88, 87, 87);
+    border-width: 2px;
+    width: 300px;
+    height: 480px;
+    /* background: rgb(195, 223, 159); */
+    border-style: solid;
+    padding: 20px 50px 50px 40px;
+    border-radius: 25px;
+box-shadow: 0 0 20px 9px #ff61241f;
+    
+}
+div{
+    margin: 20px 20px 20px 20px;
+}
+.botton-box{
+    width :200px;
+ border-radius: 4px;
+    margin: 30px auto;
+box-shadow: 0 0 20px 9px #ff61241f;
+background:linear-gradient(rgb(166, 187, 138), rgb(182, 189, 172));
+font-size: medium;
+}
+
+.toggle-btn{
+    padding: 10px 10px;
+    margin: 0px 25px 0px 60px;
+    cursor: pointer;
+    /* background: transparent; */
+    /* border: 01px; */
+    /* border-radius:42px; */
+    /* outline: none; */
+    /* position: relative; */
+    border: 0px;
+    background:linear-gradient(rgb(166, 187, 138), rgb(182, 189, 172));
+}
+#btn{
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    transition: .5s;
+}
+.form_fields{
+    border-left: 0px;
+    border-bottom: 1px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    
+}
+input{
+    background: transparent;
+    border: 0px;
+    width: 260px;
+    height: 30px;
+}
+.submit-btn{
+    border: 0px solid rgb(198, 245, 136);
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    background:linear-gradient(rgb(166, 187, 138), rgb(182, 189, 172));
+box-shadow: 0 0 20px 9px #ff61241f;
+
+}
