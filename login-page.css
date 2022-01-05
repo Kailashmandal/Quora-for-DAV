@@ -7,14 +7,14 @@ body{
 
 .form-area{
     margin-left: 770px;
-    margin-top: 150px;
+    margin-top: 190px;
     
 }
 form{
     border-color: rgb(88, 87, 87);
     border-width: 2px;
-    width: 300px;
-    height: 575px;
+    width: 260px;
+    height: 360px;
     /* background: rgb(195, 223, 159); */
     border-style: solid;
     padding: 20px 50px 50px 40px;
@@ -24,22 +24,23 @@ box-shadow: 0 0 20px 9px #ff61241f;
 }
 div{
     margin: 20px 20px 20px 20px;
+    
 }
 .botton-box{
-    width :220px;
- border-radius: 6px;
-    margin: 10px auto;
-box-shadow: 0 0 20px 9px #ff61241f;
-background:linear-gradient(rgb(166, 187, 138), rgb(182, 189, 172));
-font-size: medium;
-padding-right: 10px;
-font-family: Nunito;
-
+    width :150px;
+    border-radius: 6px;
+    margin: 24px auto;
+    padding-left: 15px;
+    padding-right: 30px;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    background:linear-gradient(rgb(166, 187, 138), rgb(182, 189, 172));
+    font-family: Nunito;
+/* font-size: medium; */
 }
 
 .toggle-btn{
     padding: 10px 10px;
-    margin: 0px 15px 0px 60px;
+    margin: 0px 25px 0px 60px;
     cursor: pointer;
     /* background: transparent; */
     /* border: 01px; */
@@ -60,26 +61,29 @@ font-family: Nunito;
     border-bottom: 1px solid black;
     border-top: 0px;
     border-right: 0px;
-    
+   
 }
 input{
     background: transparent;
     border: 0px;
-    width: 260px;
+    width: 200px;
     height: 30px;
 }
-.submit-btn{
-    margin-left: 50px;
-    margin-top: 15px;
+#submit-btn{
+    /* background: transparent; */
     border: 0px solid rgb(198, 245, 136);
-    width: 160px;
+    width: 120px;
     height: 30px;
     border-radius: 15px;
     background:linear-gradient(rgb(166, 187, 138), rgb(182, 189, 172));
-box-shadow: 0 0 20px 9px #ff61241f;
-   font-family: Nunito;
-}
-.already-account{
-    width: 300px;
-    
+    box-shadow: 0 0 20px 9px #ff61241f;
+    text-align: center;
+     margin-top: 20px;
+     margin-left: 55px;
+     padding-top: 0px;
+    /* padding: 0px 0px 0px 0px; */
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    font-family: Nunito;
 }
